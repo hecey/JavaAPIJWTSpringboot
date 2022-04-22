@@ -19,7 +19,7 @@ public class UserServiceImplementation implements UserService {
     public void addRoleToUser(String userName, String roleName) {
         
         User user = userRepository.findByUsername(userName);
-        Role role = roleRepository.findByRole(roleName);
+        Role role = roleRepository.findByName(roleName);
         log.info("Adding a role {} to an user {}",userName , roleName);
         user.getRoles().add(role);
         
