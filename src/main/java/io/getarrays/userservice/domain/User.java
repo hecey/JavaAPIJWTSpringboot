@@ -1,4 +1,4 @@
-package io.getarrays.userservice.Domains;
+package io.getarrays.userservice.domain;
 
 import java.util.ArrayList;
 import java.util.Collection;

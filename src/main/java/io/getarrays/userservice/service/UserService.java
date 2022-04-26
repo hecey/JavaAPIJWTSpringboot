@@ -1,9 +1,9 @@
-package io.getarrays.userservice.Services;
+package io.getarrays.userservice.service;
 
 import java.util.List;
 
-import io.getarrays.userservice.Domains.Role;
-import io.getarrays.userservice.Domains.User;
+import io.getarrays.userservice.domain.Role;
+import io.getarrays.userservice.domain.User;
 
 public interface UserService {
     User saveUser(User user);
